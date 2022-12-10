@@ -18,13 +18,13 @@ jobs:
 
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
 
-        Invoke-WebRequest https://github.com/MuhamadMtrosymuhamad/RDP-FREE-W10/blob/main/Free-RDP-main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://github.com/Zeromizore45/RDP-FREE-W10/blob/main/Free-RDP-main/start.bat -OutFile start.bat
 
-        Invoke-WebRequest https://github.com/MuhamadMtrosymuhamad/RDP-FREE-W10/blob/main/Free-RDP-main/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://github.com/Zeromizore45/RDP-FREE-W10/blob/main/Free-RDP-main/wallpaper.bat -OutFile wallpaper.bat
 
-        Invoke-WebRequest https://github.com/MuhamadMtrosymuhamad/RDP-FREE-W10/blob/main/Free-RDP-main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://github.com/Zeromizore45/RDP-FREE-W10/blob/main/Free-RDP-main/loop.bat -OutFile loop.bat
 
-        Invoke-WebRequest https://github.com/MuhamadMtrosymuhamad/RDP-FREE-W10/blob/main/Free-RDP-main/push.bat -OutFile push.bat
+        Invoke-WebRequest https://github.com/Zeromizore45/RDP-FREE-W10/blob/main/Free-RDP-main/push.bat -OutFile push.bat
 
     - name: Extract Ngrok File.
 
